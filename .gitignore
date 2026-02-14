@@ -17,5 +17,9 @@
 !.gitignore
 !.gitattributes
 
+# Track YAML files (CI/CD configuration)
+!*.yml
+!*.yaml
+
 # Don't ignore directories
 !
