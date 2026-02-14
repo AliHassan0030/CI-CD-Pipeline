@@ -1,11 +1,21 @@
-.htaccess
-css.php
-rpc/
-sites/site*/admin/
-sites/site*/private/
-sites/site*/public/admin/
-sites/site*/public/setup/
-sites/site*/public/theme/
-textpattern/
-HISTORY.txt
-README.txt
+# Ignore all files by default
+*
+!*/
+
+# Track Python files
+!*.py
+
+# Track Jupyter notebooks
+!*.ipynb
+
+# Track text files
+!*.txt
+!*.md
+!*.rst
+
+# Track configuration files (optional - can be useful)
+!.gitignore
+!.gitattributes
+
+# Don't ignore directories
+!
